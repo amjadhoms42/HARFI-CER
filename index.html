@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arapça Edatlar (Harf-i Cer) Sunumu</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            height: 100%;
+            overflow: hidden;
+        }
+        .slide {
+            display: none;
+            height: 100vh;
+            padding: 2rem;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .slide.active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #34495e;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .nav-arrows {
+            position: fixed;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 2rem;
+            box-sizing: border-box;
+            transform: translateY(-50%);
+        }
+        .nav-arrow {
+            font-size: 3rem;
+            color: #3498db;
+            cursor: pointer;
+            user-select: none;
+        }
+        .progress-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            height: 5px;
+            background-color: #3498db;
+            transition: width 0.3s ease;
+        }
+        .infographic {
+            max-width: 100%;
+            height: auto;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="presentation">
+        <div class="slide active">
+            <h1>Arapça Edatlar (Harf-i Cer) Sunumu</h1>
+            <p>Arap dilindeki Harf-i Cerler ve kullanım boyutları</p>
+            <img class="infographic" src="https://images.app.goo.gl/KFJJp739vuyTSi2z6" alt="Arapça Edatlar Genel Bakış">
+        </div>
+        <div class="slide">
+            <h1>Harf-i Cer Kavramı</h1>
+            <p>Harf: Dilbilimde sınırlama ve alfabeyi oluşturan sesler anlamına gelir.</p>
+            <p>Cer: Çekmek, aşağı indirmek anlamlarına gelir. Dilbilgisinde ismin sonunda hareke değişikliği yapar.</p>
+            <img class="infographic" src="/api/placeholder/800/400" alt="Harf-i Cer Kavramı İnfografik">
+        </div>
+        <div class="slide">
+            <h1>Harf-i Cerlerin Kullanım Alanları</h1>
+            <p>İttifak edilenler: bi (ile), min (den), fi (içinde)</p>
+            <p>İhtilaf edilenler: ala (üzerine) - farklı gramer fonksiyonlarına sahip olabilir</p>
+            <img class="infographic" src="/api/placeholder/800/400" alt="Harf-i Cer Kullanım Alanları">
+        </div>
+        <div class="slide">
+            <h1>Harf-i Cerlerin Gramerdeki Rolü</h1>
+            <p>Cümledeki kelimeler arasında anlamsal bağlar kurar</p>
+            <p>Örnek: fi (في المسجد - camide), min (من المدرسة - okuldan)</p>
+            <img class="infographic" src="/api/placeholder/800/400" alt="Harf-i Cerlerin Gramer Rolü">
+        </div>
+        <div class="slide">
+            <h1>Harf-i Cerlerin Sınıflandırılması</h1>
+            <p>Yapıları itibariyle: Basit veya mürekkep</p>
+            <p>Amel etmeleri itibariyle: Gramer etkisi bırakır</p>
+            <p>Kullanım detaylarına göre: Farklı kelimeler üzerinde farklı etkiler</p>
+            <img class="infographic" src="/api/placeholder/800/400" alt="Harf-i Cer Sınıflandırması">
+        </div>
+        <div class="slide">
+            <h1>Harf-i Cerlerin Özel Durumları</h1>
+            <p>Gizlenebilir veya fazlalık olarak kabul edilebilir</p>
+            <p>Anlamı pekiştirmek için eklenebilir veya çıkarılabilir</p>
+            <img class="infographic" src="/api/placeholder/800/400" alt="Harf-i Cer Özel Durumları">
+        </div>
+        <div class="slide">
+            <h1>Harf-i Cer Olarak Gelen Yapılar</h1>
+            <p>İttifak edilenler: بـ (bi), في (fi), من (min), إلى (ila)</p>
+            <p>Zorunlu olmayanlar: تـ (te), كَـ (ke), لـ (li), و (ve)</p>
+            <img class="infographic" src="/api/placeholder/800/400" alt="Harf-i Cer Yapıları">
+        </div>
+        <div class="slide">
+            <h1>İhtilaflı Harf-i Cer Yapıları</h1>
+            <p>Râcih görüşe göre: Ke (كـ)</p>
+            <p>Nadiren: علة (la'alle), ما (mâ)</p>
+            <p>Şaz görüşlere göre: مُـ (mu), مع (ma'), بله (bele)</p>
+            <img class="infographic" src="/api/placeholder/800/400" alt="İhtilaflı Harf-i Cer Yapıları">
+        </div>
+        <div class="slide">
+            <h1>Harf-i Cerlerin Zaid Olması</h1>
+            <p>Anlamı pekiştirmek için eklenir</p>
+            <p>Cümle anlamına doğrudan katkı sağlamaz</p>
+            <img class="infographic" src="/api/placeholder/800/400" alt="Zaid Harf-i Cerler">
+        </div>
+        <div class="slide">
+            <h1>Harf-i Cerlerin Hazfedilmesi</h1>
+            <p>Bazen cümleden çıkarılabilir</p>
+            <p>Anlam bozulmadan kullanılabilir</p>
+            <img class="infographic" src="/api/placeholder/800/400" alt="Harf-i Cer Hazfi">
+        </div>
+        <div class="slide">
+            <h1>Sunum Sonu</h1>
+            <p>Bu sunum, yapay zeka desteğiyle hazırlanmıştır. Arapça edatların (harf-i cer) karmaşık dünyasına yaptığımız bu yolculuk umarım sizin için aydınlatıcı olmuştur. Dil öğrenmenin bu önemli yönüne gösterdiğiniz ilgi için teşekkür ederiz. Bilgi yolculuğunuz devam etsin!</p>
+        </div>
+    </div>
+    <div class="nav-arrows">
+        <div class="nav-arrow" id="prev">&#10094;</div>
+        <div class="nav-arrow" id="next">&#10095;</div>
+    </div>
+    <div class="progress-bar" id="progress"></div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const prevBtn = document.getElementById('prev');
+        const nextBtn = document.getElementById('next');
+        const progressBar = document.getElementById('progress');
+        let currentSlide = 0;
+
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+            updateProgress();
+        }
+
+        function nextSlide() {
+            if (currentSlide < slides.length - 1) {
+                showSlide(currentSlide + 1);
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+                showSlide(currentSlide - 1);
+            }
+        }
+
+        function updateProgress() {
+            const progress = ((currentSlide + 1) / slides.length) * 100;
+            progressBar.style.width = `${progress}%`;
+        }
+
+        prevBtn.addEventListener('click', prevSlide);
+        nextBtn.addEventListener('click', nextSlide);
+
+        updateProgress();
+    </script>
+</body>
+</html>
